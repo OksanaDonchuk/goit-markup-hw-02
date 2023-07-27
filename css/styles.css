@@ -1,0 +1,75 @@
+:root {
+  --main-font: roboto;
+}
+/* ============= COMMON STYLES ============= */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--main-font), sans-serif;
+}
+
+/* ============= /COMMON STYLES ============= */
+
+/* ================ COMPONENTS ================ */
+.section-title {
+}
+/* ================ /COMPONENTS ================ */
+/* ============= PAGE HEADER ============= */
+.logotype {
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+  letter-spacing: px;
+  text-transform: ;
+  color: ;
+}
+
+.menu-link {
+  font-size: 
+  font-weight: ;
+  line-height: ;
+  letter-spacing: px;
+  color: ;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: ;
+}
+/* ============= /PAGE HEADER ============= */
+
+/* ================ HERO ================ */
+.main-title {
+  font-size: px;
+  font-weight: ;
+  line-height: ;
+  letter-spacing: ;
+  }
+
+
+/* ================ /HERO ================ */
+
+/* ================ BENEFITS ================ */
+.benefits-list-title {
+  font-size: ;
+  font-weight: ;
+  }
+
+.benefits-list-text {
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+  letter-spacing: ;
+  }
+/* ================ /BENEFITS ================ */
+
