@@ -55,18 +55,12 @@ address {
   font-style: normal;
 }
 
-.e-mail,
-.tel {
+.contact-link {
   color: var(--third-color);
 }
 
-.e-mail:hover,
-.e-mail:focus {
-  color: var(--active-color);
-}
-
-.tel:hover,
-.tel:focus .hero {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--active-color);
 }
 
