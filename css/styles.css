@@ -60,13 +60,12 @@ address {
 }
 
 .e-mail:hover,
-.e-mail:focus,
-.tel:hover,
-.tel:focus {
+.e-mail:focus {
   color: var(--active-color);
 }
 
-.hero {
+.tel:hover,
+.tel:focus .hero {
   background: var(--main-color);
 }
 
@@ -130,21 +129,18 @@ address {
   color: var(--secondary-color);
 }
 
-.page-footer .logotype {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+.logotype-text-light {
+  color: var(--secondary-color);
 }
 
 .filters-button {
   background: var(--secondary-color);
   color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 }
 
