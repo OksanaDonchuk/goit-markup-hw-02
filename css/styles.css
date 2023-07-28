@@ -55,7 +55,8 @@ address {
   font-style: normal;
 }
 
-.contacts-item > a {
+.e-mail,
+.tel {
   color: var(--third-color);
 }
 
@@ -66,7 +67,11 @@ address {
 
 .tel:hover,
 .tel:focus .hero {
-  background: var(--main-color);
+  color: var(--active-color);
+}
+
+.hero {
+  background-color: var(--main-color);
 }
 
 .hero-title {
